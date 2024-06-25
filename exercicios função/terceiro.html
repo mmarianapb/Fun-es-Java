@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let horas = parseInt(prompt("Digite as horas trabalhadas no mes:"))
+        document.write("Suas horas:" +horas)
+        let valor = parseInt(prompt("Quanto voce recebe por hora?"))
+        document.write("O valor delas:" +valor)
+
+        function salario (horas,valor) {
+            let salario= (horas*valor) *0.3
+             return document.write("Seu salario liquido é de " +salario )
+        }
+        salario (horas,valor)
+       
+
+
+    </script>
+</body>
+</html>
