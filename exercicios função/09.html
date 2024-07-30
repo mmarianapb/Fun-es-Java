@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let nota = parseFloat(prompt("Digite sua nota: "));
+    function aprovado(nota) {
+      if (nota < 18) {
+        return ("Você está reprovado sua nota foi: "+nota);
+      } else {
+        return  ("Você está aprovado sua nota foi: "+nota);
+      }
+    }
+    document.write(aprovado(nota));
+  </script>
+</body>
+</html>

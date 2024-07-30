@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script> 
+
+     let n = [];
+          while (true) {
+            n.push(parseFloat(prompt("Digite um número:")));
+            if (confirm("Você quer adicionar outro número?") == true) {
+            } else {
+              break;
+            }
+          }
+          function media(n) {
+            let soma = 0;
+            for (let i = 0; i < n.length; i++) {
+              soma += n[i];
+            }
+            return soma / n.length;
+          }
+          
+          document.write("A média é: " + media(n));
+
+  </script>
+</body>
+</html>

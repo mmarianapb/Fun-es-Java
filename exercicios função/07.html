@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> <script>
+    let renda = parseFloat(prompt("Digite sua renda anual: "));
+    function imposto(renda) {
+      if (renda >= 30639.9) {
+        return "Deverá pagar";
+      } else {
+        return "Você não precisará pagar!";
+      }
+    }
+    document.write(imposto(renda));
+  </script>
+        
+</body>
+</html>
